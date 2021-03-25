@@ -1,4 +1,4 @@
-<h2>**Advanced Leach protocol proposed by doing following modifications to traditional leach protocol.**<h2>
+<h2>**Advanced Leach protocol proposed by doing following modifications to traditional leach protocol.**</h2>
 
 The Proposed Leach Protocol is similar to LEACH Protocol. It has two stages: setup phase and steady phase. The main difference occurs in the setup phase which leads to great  improvement in terms of lifetime of WSNs. In the setup phase of leach protocol, all the nodes select a random number from 0 to 1, then if the number is  less than or equal to threshold (T(N), as calculated previously) it becomes a cluster head (CH) else the node  remains ordinary. In advanced leach protocol along with threshold a new condition is introduced i.e the node energy should be greater than the average energy (Eavg).The process continues until all cluster heads are chosen. After all the  CHs are chosen, they broadcast advertisement messages to the overall network informing that it became a CH. 
 
